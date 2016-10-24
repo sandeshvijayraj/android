@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">scramsdie</string>
+    <string name="comp_failed">comp scored 0 your turn</string>
+    <string name="user_turn">your turn you can roll the die</string>
+    <string name="processing_compturn">"pls wait computer is playing"</string>
+    <string name="comp_wins">computer reached  100 first\ncomputer wins</string>
+    <string name="instruction">instruction:\n\nroll the die as much as u want\n each time u score number not equal to 1\nthe numer gets added to the turn score\n press hold to stop and add turn score to your total\n\n if u score 1 you loose your turn and turn score\n\nnote: pressing reset will restart the game</string>
+    <string name="noroll_condition">pls roll the die first</string>
+</resources>

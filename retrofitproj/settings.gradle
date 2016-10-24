@@ -1,0 +1,5 @@
+include ':app'
+
+compile ("com.squareup.retrofit2:retrofit:$retrofitVersion")
+compile 'com.google.code.gson:2.6.1'
+compile "com.squareup.retrofit2:convertor-gson:$retrofitVersion"

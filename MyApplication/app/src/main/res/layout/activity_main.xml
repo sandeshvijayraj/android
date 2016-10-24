@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sandeshbafna.orders.MainActivity">
+
+    <TextView
+        android:id="@+id/quantity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quantity"
+        android:textSize="20dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"/>
+
+    <Button
+        android:id="@+id/subtract"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:text="-"
+        android:textSize="20dp"
+        android:layout_below="@id/quantity"
+        android:layout_margin="10dp"
+        android:background="#d1cdcd"
+        android:textAlignment="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="30dp"
+        android:layout_below="@id/quantity"
+        android:layout_toRightOf="@id/subtract"
+        android:padding="10dp"
+        android:id="@+id/peoples1" />
+
+    <Button
+        android:id="@+id/plus"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:text="+"
+        android:textSize="20dp"
+        android:layout_below="@id/quantity"
+        android:layout_toRightOf="@id/peoples1"
+        android:layout_margin="10dp"
+        android:background="#d1cdcd"
+        android:textAlignment="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total:"
+        android:id="@+id/total"
+        android:textSize="20dp"
+        android:layout_below="@id/plus"
+        android:layout_margin="10dp"
+        android:layout_alignParentLeft="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/totalvalue"
+        android:text="0"
+        android:textSize="20dp"
+        android:layout_below="@id/plus"
+        android:layout_toRightOf="@id/total"
+        android:layout_margin="10dp"
+        />
+
+    <Button
+        android:text="Buy Now"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:textAlignment="center"
+        android:id="@+id/buy"
+        android:textSize="20dp"
+        android:background="#f3f0f0"
+        android:padding="10dp" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@id/total"
+        android:layout_above="@id/buy"
+        android:scaleType="center"
+        android:padding="200dp"
+        android:src="@mipmap/coffe"/>
+
+
+</RelativeLayout>
